@@ -1,5 +1,5 @@
 .dashboard{
-    background-color: #55514b45;
+    background-color: #dbd9d638;
     padding: 30px 40px;
 }
 .container{
@@ -15,4 +15,14 @@
     padding: 30px;
     border-radius: 10px;
     box-sizing: border-box
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+.element{
+    width: 450px;
+    background-color: white;
+    padding: 18px;
+    border-radius: 10px
 }
