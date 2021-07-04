@@ -1,0 +1,18 @@
+.dashboard{
+    background-color: #55514b45;
+    padding: 30px 40px;
+}
+.container{
+    width: 1000px;
+    margin: 0px auto;
+}
+.margin{
+    margin: 30px auto;
+}
+.unique-visitors{
+    width: 1000px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-sizing: border-box
+}
