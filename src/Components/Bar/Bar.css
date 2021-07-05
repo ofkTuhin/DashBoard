@@ -7,7 +7,7 @@
     width: 29%;
     display: flex;
     flex-wrap: wrap;
-    height: 150px;
+    height: 100px;
     position: relative;
     background-color: white;
     border-radius: 10px;
@@ -15,11 +15,17 @@
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
-    padding: 10px;
+    padding: 20px 15px;
 }
 .sale-data{
     width: 60%;
     
+}
+.sale-data h3{
+    font-size: 30px;
+    color: rgba(4, 4, 41, 0.89);
+    margin: 0px;
+
 }
 .sale-chart{
     width: 40%;
@@ -31,3 +37,17 @@
 }
 
 
+.sale-info p{
+    color: rgb(68, 65, 65);
+  margin-top:   10px;
+    
+}
+.sale-info span{
+    padding-right: 5px;
+}
+@media(max-width:700px){
+    .sale-info{
+        width: 100%;
+        margin: 10px;
+    }
+}

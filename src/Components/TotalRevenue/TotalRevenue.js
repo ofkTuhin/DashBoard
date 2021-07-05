@@ -4,32 +4,34 @@ import Chart from 'react-google-charts';
 const TotalRevenue = () => {
     return (
         <div>
+          
             <Chart
-  width={'400px'}
+  width={'100%'}
   height={'300px'}
   chartType="LineChart"
   loader={<div>Loading Chart</div>}
   data={[
-    ['x', 'dogs', 'cats'],
-    [0, 0, 0],
-    [1, 10, 5],
-    [2, 23, 15],
-    [3, 17, 9],
-    [4, 18, 10],
-    [5, 9, 5],
-    [6, 11, 3],
-    [7, 27, 19],
+    ['Month','Current Period', 'Previous Period'],
+    ['Jan', 4000,3500 ],
+    ['Feb', 8170,9300 ],
+    ['Mar', 7000, 6000],
+    ['Apr', 5030, 3400],
+    ['May', 6000,4750 ],
+    ['Jun', 7170,5500 ],
+    ['Jul', 3660,4330 ],
+    ['Aug', 5030, 3650],
+    ['Sep', 2800,3450 ],
+    ['Oct', 5170, 4700],
+    ['Nov', 7360,6500 ],
+    ['Dec', 7030,5833 ],
+    
+   
   ]}
   options={{
-    hAxis: {
-      title: 'Time',
-    },
-    vAxis: {
-      title: 'Popularity',
-    },
-    series: {
-      1: { curveType: 'function' },
-    },
+    title: 'Total Revenue',
+          curveType: 'function',
+          legend: { position: 'bottom' }
+    
   }}
   rootProps={{ 'data-testid': '2' }}
 />

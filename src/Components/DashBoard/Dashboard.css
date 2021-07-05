@@ -1,6 +1,7 @@
 .dashboard{
     background-color: #dbd9d638;
     padding: 30px 40px;
+   
 }
 .container{
     width: 1000px;
@@ -21,8 +22,116 @@
     justify-content: space-between;
 }
 .element{
-    width: 450px;
+  
+}
+.sellLocation{
+    width: 300px;
     background-color: white;
     padding: 18px;
-    border-radius: 10px
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.topRevenue{
+    width: 600px;
+    background-color: white;
+    padding: 18px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.RevenueByDevice{
+    width: 300px;
+    background-color: white;
+    padding: 18px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.TopSellingProduct{
+    width: 600px;
+    background-color: white;
+    padding: 18px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+
+}
+
+@media (max-width:700px){
+
+    .container{
+        width:100%
+    }
+    .sellLocation{
+        width: 100%;
+        margin: 10px 0px;
+        padding: 5px;
+    }
+    .topRevenue{
+        width: 100%;
+    }
+    .RevenueByDevice{
+        width: 100%;
+        padding: 5px;
+    }
+    .TopSellingProduct{
+        width: 100%;
+        margin: 10px 0px;
+        padding: 5px;
+    }
+    .unique-visitors{
+        width: 100%;
+        padding: 5px;
+    }
+    .row{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .margin{
+        margin: 15px auto;
+    }
+}
+
+@media (max-width:360px){
+
+    .container{
+        width:100%
+    }
+    .sellLocation{
+        width: 100%;
+        margin: 10px 0px;
+        padding: 5px;
+    }
+    .topRevenue{
+        width: 100%;
+    }
+    .RevenueByDevice{
+        width: 100%;
+        padding: 5px;
+    }
+    .TopSellingProduct{
+        width: 100%;
+        margin: 10px 0px;
+        padding: 5px;
+    }
+    .unique-visitors{
+        width: 100%;
+        padding: 5px;
+    }
+    .row{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .margin{
+        margin: 15px auto;
+    }
 }

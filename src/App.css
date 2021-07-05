@@ -1,6 +1,9 @@
 .App {
  
 }
+h6{
+  margin:10px 0;
+}
 li{
   list-style: none;
 }

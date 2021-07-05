@@ -20,6 +20,7 @@ const SideBar = () => {
             <FaIcons.FaBars onClick={showSidebar} />
 
           </Link>
+          <div className="logo"><h2>Admin</h2></div>
 
         </div>
         <nav className={sidebar ? "nav-menu active" : "nav-menu"}>

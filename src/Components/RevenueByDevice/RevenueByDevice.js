@@ -5,23 +5,26 @@ const RevenueByDevice = () => {
     return (
         <div>
             <Chart
+            width='100%'
   
   chartType="PieChart"
   loader={<div>Loading Chart</div>}
   data={[
-    ['Task', 'Hours per Day'],
-    ['Work', 11],
-    ['Eat', 2],
-    ['Commute', 2],
-    ['Watch TV', 2],
-    ['Sleep', 7],
+    ['Device', 'Revenue'],
+    ['Laptop', 1330],
+    ['Mobile', 2003],
+    ['Desktop', 1650]
+   
   ]}
   options={{
     title: 'My Daily Activities',
+    legend: { position: 'bottom' },
     // Just add this option
     pieHole: 0.4,
-    height:300,
-    width:400
+    height:250,
+    
+    allowHtml:true
+    
   }}
   rootProps={{ 'data-testid': '3' }}
 />

@@ -5,12 +5,15 @@ import TotalRevenue from '../TotalRevenue/TotalRevenue';
 import SellBuyLocation from '../SellByLocation/SellBuyLocation';
 import RevenueByDevice from '../RevenueByDevice/RevenueByDevice';
 import TopSellingProduct from '../TopSellingProducts/TopSellingProduct';
+
 import './Dashboard.css'
+import SideBar from '../Sidebar/SideBar';
 
 
 const DashBoard = () => {
     return (
         <div className="dashboard">
+           
            <div className="container">
            <div className="barChart margin">
            <BarChart></BarChart>
@@ -20,12 +23,12 @@ const DashBoard = () => {
            </div>
 
            <div className="row margin">
-               <div className="element"><TotalRevenue></TotalRevenue></div>
-               <div className="element"><SellBuyLocation></SellBuyLocation></div>
+               <div className="topRevenue"><TotalRevenue></TotalRevenue></div>
+               <div className="sellLocation"><SellBuyLocation></SellBuyLocation></div>
            </div>
            <div className="row margin">
-               <div className="element"><TopSellingProduct></TopSellingProduct></div>
-               <div className="element"><RevenueByDevice></RevenueByDevice></div>
+               <div className="TopSellingProduct"><TopSellingProduct></TopSellingProduct></div>
+               <div className="RevenueByDevice"><RevenueByDevice></RevenueByDevice></div>
            </div>
            </div>
         </div>

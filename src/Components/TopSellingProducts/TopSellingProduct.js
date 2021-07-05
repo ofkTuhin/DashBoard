@@ -4,7 +4,9 @@ import Chart from 'react-google-charts';
 const TopSellingProduct = () => {
     return (
         <div>
+          <h6>Top Selling Product</h6>
            <Chart
+           width={'100%'}
   
   chartType="Table"
   loader={<div>Loading Chart</div>}
@@ -36,10 +38,12 @@ const TopSellingProduct = () => {
       },
   ]}
   options={{
+    title: 'Top Selling Product',
     allowHtml: true,
     showRowNumber: true,
     height:300,
-    width:400
+    width:'100%'
+    
   }}
   rootProps={{ 'data-testid': '5' }}
 /> 
