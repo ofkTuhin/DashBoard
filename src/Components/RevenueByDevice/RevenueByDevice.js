@@ -17,7 +17,7 @@ const RevenueByDevice = () => {
    
   ]}
   options={{
-    title: 'My Daily Activities',
+    title: 'Revenue By Device',
     legend: { position: 'bottom' },
     // Just add this option
     pieHole: 0.4,
