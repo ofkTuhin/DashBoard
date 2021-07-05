@@ -7,7 +7,7 @@
     
 }
 .menuBar{
-    margin-left: 1em;
+    margin-left: 2em;
     font-size: 30px;
     color:rgb(13, 2, 24) ;
    
@@ -70,4 +70,5 @@
     color: rgb(2, 2, 27);
     margin-left: 40px;
     float: right;
+    font-size: 20px;
 }

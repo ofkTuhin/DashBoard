@@ -4,14 +4,14 @@
    
 }
 .container{
-    width: 1000px;
+    width: 95%;
     margin: 0px auto;
 }
 .margin{
     margin: 30px auto;
 }
 .unique-visitors{
-    width: 1000px;
+    width: 100%;
     background-color: white;
     padding: 30px;
     border-radius: 10px;
@@ -25,7 +25,7 @@
   
 }
 .sellLocation{
-    width: 300px;
+    width: 25%;
     background-color: white;
     padding: 18px;
     border-radius: 10px;
@@ -35,7 +35,7 @@
     -o-border-radius: 10px;
 }
 .topRevenue{
-    width: 600px;
+    width: 65%;
     background-color: white;
     padding: 18px;
     border-radius: 10px;
@@ -45,7 +45,7 @@
     -o-border-radius: 10px;
 }
 .RevenueByDevice{
-    width: 300px;
+    width: 25%;
     background-color: white;
     padding: 18px;
     border-radius: 10px;
@@ -55,7 +55,7 @@
     -o-border-radius: 10px;
 }
 .TopSellingProduct{
-    width: 600px;
+    width: 65%;
     background-color: white;
     padding: 18px;
     border-radius: 10px;
